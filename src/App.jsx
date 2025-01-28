@@ -23,7 +23,7 @@ const App = () => {
           <Route path="/" element={<Posts />} />
           <Route path="/home" element={<Home />} />
           <Route path="/error" element={<Error />} />
-          <Route path="/miri" element={<Miri />} />
+  
         </Routes>
       </BrowserRouter>
   );
