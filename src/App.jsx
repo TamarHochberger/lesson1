@@ -5,6 +5,7 @@ import { useSelector } from 'react-redux';
 import Error from './components/Error';
 import Posts from './components/Posts';
 import { useEffect } from 'react';
+import Tamar from './components/tamar';
 
 import Miri from './components/miri';
 
@@ -16,6 +17,7 @@ const App = () => {
         <nav>
           <NavLink to="/" activeClassName="active">Posts          </NavLink>
           <NavLink to="/home" activeClassName="active">Home  </NavLink>
+
           <NavLink to="/home" activeClassName="active">Miri  </NavLink>
         </nav>
         
@@ -24,6 +26,7 @@ const App = () => {
           <Route path="/home" element={<Home />} />
           <Route path="/error" element={<Error />} />
   
+          <Route path="/Tamar" element={<Tamar/>} />
         </Routes>
       </BrowserRouter>
   );
