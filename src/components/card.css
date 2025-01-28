@@ -1,0 +1,13 @@
+.description {
+    overflow: hidden;
+    /* Hide the overflow */
+    display: -webkit-box;
+    /* Create a flexible box for the description */
+    -webkit-box-orient: vertical;
+    /* Set the box orientation to vertical */
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    /* Limit the description to 3 lines */
+    height: 4.5em;
+    /* Adjust the height as necessary */
+}
